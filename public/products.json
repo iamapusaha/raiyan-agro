@@ -1,0 +1,45 @@
+[
+    {
+      "_id": "1",
+      "image": "https://example.com/image1.jpg",
+      "price": 29.99,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "title": "Product 1"
+    },
+    {
+      "_id": "2",
+      "image": "https://example.com/image2.jpg",
+      "price": 49.99,
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "title": "Product 2"
+    },
+    {
+      "_id": "3",
+      "image": "https://example.com/image3.jpg",
+      "price": 39.99,
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "title": "Product 3"
+    },
+    {
+      "_id": "4",
+      "image": "https://example.com/image4.jpg",
+      "price": 59.99,
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "title": "Product 4"
+    },
+    {
+      "_id": "5",
+      "image": "https://example.com/image5.jpg",
+      "price": 69.99,
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "title": "Product 5"
+    },
+    {
+      "_id": "6",
+      "image": "https://example.com/image6.jpg",
+      "price": 79.99,
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+      "title": "Product 6"
+    }
+  ]
+  
