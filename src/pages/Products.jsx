@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Product from "./Product";
-// import Product from "./Product/Product";
 
 const Products = () => {
     const [products, setProducts] = useState([]);
@@ -17,7 +16,6 @@ const Products = () => {
             <h2 className="text-3xl text-center font-bold mb-6 mt-10">All products</h2>
             <div className=" gap-4 grid grid-cols-1 md:grid-cols-3 my-5">
                 {products.map((product) => (
-                    // <Product key={product._id} product={product} />
                     <Product key={product._id} product={product}></Product>
                 ))}
             </div>

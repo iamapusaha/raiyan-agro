@@ -3,17 +3,18 @@ const Product = ({ product }) => {
     return (
       <div>
         <div className="card bg-base-100 shadow-xl">
-          <figure>
+          <figure className=" rounded">
             <img
-              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              className=" h-64 w-64 p-3 rounded"
+              src={image}
               alt="Shoes"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
+            <h2 className="font-bold text-2xl text-center">Dry jaggery</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+            <div className="card-actions justify-center">
+              <button className="btn bg-red-600 text-white">Buy Now</button>
             </div>
           </div>
         </div>

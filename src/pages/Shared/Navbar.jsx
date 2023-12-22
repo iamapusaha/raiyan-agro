@@ -15,7 +15,7 @@ const Navbar = () => {
         <div>
             <div className="navbar bg-base-100">
             <div className="navbar-start hidden lg:flex ">
-    <ul className="menu menu-horizontal px-1 gap-6">
+    <ul className="menu menu-horizontal px-1 gap-6 font-semibold">
       {navLinks}
     </ul>
   </div>
@@ -28,7 +28,7 @@ const Navbar = () => {
        {navLinks}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Raiyan Agro</a>
+    <a className="btn btn-ghost text-2xl">Raiyan Agro</a>
   </div>
   
   <div className="navbar-end">
